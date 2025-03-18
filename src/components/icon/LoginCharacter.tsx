@@ -22,15 +22,15 @@ function LoginCharacter() {
         <path
           d="M741.75 496.999C741.75 501.633 733.75 611.999 733.5 612.699C733.5 612.699 732.125 626.999 675.75 626.999C619.375 626.999 618 612.699 618 612.699C617.75 611.999 609.75 501.371 609.75 496.999C609.75 491.999 639.299 485.999 675.75 485.999C712.201 485.999 741.75 491.499 741.75 496.999Z"
           fill="url(#paint0_linear_30_5682)"
-          fill-opacity="0.32"
+          fillOpacity="0.32"
         />
         <g filter="url(#filter1_i_30_5682)">
           <ellipse cx="675.75" cy="496.999" rx="66" ry="11" fill="#6D5947" />
         </g>
         <g filter="url(#filter2_i_30_5682)">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M692.24 505.892C688.401 505.792 685.083 505.526 682.336 505.155C678.585 506.061 673.325 506.624 667.5 506.624C661.806 506.624 656.651 506.086 652.919 505.215C651.843 505.237 650.743 505.249 649.625 505.249C636.715 505.249 626.25 503.71 626.25 501.812C626.25 499.913 636.715 498.374 649.625 498.374C650.743 498.374 651.843 498.386 652.919 498.408C656.651 497.537 661.806 496.999 667.5 496.999C674.372 496.999 680.459 497.783 684.208 498.989C685.91 498.833 687.761 498.703 689.726 498.603C691.866 497.619 694.976 496.999 698.438 496.999C701.816 496.999 704.859 497.589 706.993 498.533C717.576 498.972 725.25 500.274 725.25 501.812C725.25 503.271 716.304 504.925 705.611 505.611C703.631 506.246 701.141 506.624 698.438 506.624C696.161 506.624 694.036 506.356 692.24 505.892Z"
             fill="#51483A"
           />
@@ -38,7 +38,7 @@ function LoginCharacter() {
         <path
           d="M740.375 496.999C740.375 497.158 740.28 497.548 739.541 498.15C738.819 498.738 737.67 499.367 736.059 500.001C732.851 501.266 728.128 502.432 722.193 503.421C710.345 505.396 693.924 506.624 675.75 506.624C657.576 506.624 641.155 505.396 629.307 503.421C623.372 502.432 618.649 501.266 615.441 500.001C613.83 499.367 612.681 498.738 611.959 498.15C611.22 497.548 611.125 497.158 611.125 496.999C611.125 496.84 611.22 496.45 611.959 495.848C612.681 495.26 613.83 494.631 615.441 493.997C618.649 492.733 623.372 491.566 629.307 490.577C641.155 488.602 657.576 487.374 675.75 487.374C693.924 487.374 710.345 488.602 722.193 490.577C728.128 491.566 732.851 492.733 736.059 493.997C737.67 494.631 738.819 495.26 739.541 495.848C740.28 496.45 740.375 496.84 740.375 496.999Z"
           stroke="#A38263"
-          stroke-width="2.75"
+          strokeWidth="2.75"
         />
         <path
           d="M640.25 109.5C640.75 110.5 645.083 113.5 647.25 115L647.25 116.5C644.917 114.833 640.15 111.4 639.75 111C639.25 110.5 638.25 109 638.75 108C639.25 107 639.75 108.5 640.25 109.5Z"
@@ -166,7 +166,7 @@ function LoginCharacter() {
           <path
             d="M645.25 399.999C645.25 423.199 646.25 484.999 647.75 505.999C647.75 505.999 655.05 507.399 676.25 506.999C697.45 506.599 704.25 505.5 704.25 505.5C703.583 414.5 702.65 203.5 704.25 191.5C706.25 176.5 707.25 128.499 704.25 119.999C701.25 111.499 687.25 88.9994 670.25 89.4994C653.25 89.9994 650.25 105.999 647.25 116.499C644.25 126.999 645.25 159.499 645.25 177.499V307.499V399.999Z"
             fill="url(#paint6_linear_30_5682)"
-            fill-opacity="0.24"
+            fillOpacity="0.24"
           />
         </g>
         <mask
@@ -185,7 +185,7 @@ function LoginCharacter() {
           <path
             d="M645.25 400C645.25 423.2 646.25 485 647.75 506C647.75 506 655.05 507.4 676.25 507C697.45 506.6 704.25 505.5 704.25 505.5C703.583 414.5 702.65 203.5 704.25 191.5C706.25 176.5 707.25 128.5 704.25 120C701.25 111.5 687.25 89.0004 670.25 89.5004C653.25 90.0004 650.25 106 647.25 116.5C644.25 127 645.25 159.5 645.25 177.5V307.5V400Z"
             fill="url(#paint7_linear_30_5682)"
-            fill-opacity="0.24"
+            fillOpacity="0.24"
           />
         </mask>
         <g mask="url(#mask1_30_5682)">
@@ -281,8 +281,8 @@ function LoginCharacter() {
           fill="#1E3D12"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M738.763 496.99C738.766 496.993 738.77 496.996 738.773 496.999C738.743 497.025 738.709 497.054 738.672 497.084C738.108 497.544 737.107 498.111 735.555 498.722C732.479 499.934 727.866 501.081 721.967 502.065C710.214 504.023 693.872 505.249 675.75 505.249C657.628 505.249 641.286 504.023 629.533 502.065C623.634 501.081 619.021 499.934 615.945 498.722C614.393 498.111 613.392 497.544 612.828 497.084C612.791 497.054 612.757 497.025 612.727 496.999L612.74 496.988C611.376 495.815 612.917 493.656 616.365 492.193C612.127 493.645 609.75 495.276 609.75 496.999C609.75 503.074 639.299 507.999 675.75 507.999C712.201 507.999 741.75 503.074 741.75 496.999C741.75 495.277 739.375 493.647 735.14 492.195C738.589 493.658 740.131 495.818 738.763 496.99ZM739.061 496.691C739.061 496.691 739.059 496.697 739.052 496.707C739.054 496.704 739.056 496.7 739.057 496.698C739.06 496.693 739.061 496.691 739.061 496.691ZM612.439 496.691C612.439 496.691 612.443 496.697 612.448 496.708C612.441 496.697 612.439 496.691 612.439 496.691ZM612.439 497.307C612.439 497.307 612.441 497.301 612.448 497.29C612.443 497.301 612.439 497.307 612.439 497.307ZM739.052 497.29C739.059 497.301 739.061 497.307 739.061 497.307C739.061 497.307 739.057 497.301 739.052 497.29Z"
           fill="#E2C2A4"
         />
@@ -295,9 +295,9 @@ function LoginCharacter() {
             width="146"
             height="51"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -308,9 +308,9 @@ function LoginCharacter() {
             width="132"
             height="27.5"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix
               in="SourceAlpha"
@@ -331,9 +331,9 @@ function LoginCharacter() {
             width="99"
             height="12.375"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix
               in="SourceAlpha"
@@ -354,9 +354,9 @@ function LoginCharacter() {
             width="101.452"
             height="214.93"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix
               in="SourceAlpha"
@@ -388,9 +388,9 @@ function LoginCharacter() {
             width="81.478"
             height="162.017"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -401,9 +401,9 @@ function LoginCharacter() {
             width="81.478"
             height="162.017"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -414,9 +414,9 @@ function LoginCharacter() {
             width="64.9984"
             height="125.55"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -427,9 +427,9 @@ function LoginCharacter() {
             width="72.1886"
             height="160.204"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -440,9 +440,9 @@ function LoginCharacter() {
             width="69.0536"
             height="429.58"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix
               in="SourceAlpha"
@@ -463,9 +463,9 @@ function LoginCharacter() {
             width="30"
             height="431"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -476,9 +476,9 @@ function LoginCharacter() {
             width="22"
             height="433"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -489,9 +489,9 @@ function LoginCharacter() {
             width="24"
             height="425"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -502,9 +502,9 @@ function LoginCharacter() {
             width="68"
             height="140"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -515,9 +515,9 @@ function LoginCharacter() {
             width="135.28"
             height="83.1959"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -528,9 +528,9 @@ function LoginCharacter() {
             width="103.69"
             height="159.279"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix
               in="SourceAlpha"
@@ -562,9 +562,9 @@ function LoginCharacter() {
             width="70.1765"
             height="132.87"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -575,9 +575,9 @@ function LoginCharacter() {
             width="57"
             height="101"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_30_5682" />
           </filter>
@@ -593,7 +593,7 @@ function LoginCharacter() {
             gradientUnits="userSpaceOnUse"
           >
             <stop />
-            <stop offset="1" stop-opacity="0" />
+            <stop offset="1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_30_5682"
@@ -603,8 +603,8 @@ function LoginCharacter() {
             y2="415.078"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#51A234" />
-            <stop offset="1" stop-color="#43852C" />
+            <stop stopColor="#51A234" />
+            <stop offset="1" stopColor="#43852C" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_30_5682"
@@ -614,8 +614,8 @@ function LoginCharacter() {
             y2="419.713"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_30_5682"
@@ -625,8 +625,8 @@ function LoginCharacter() {
             y2="413.713"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_30_5682"
@@ -636,8 +636,8 @@ function LoginCharacter() {
             y2="389"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_30_5682"
@@ -647,8 +647,8 @@ function LoginCharacter() {
             y2="415.078"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#51A234" />
-            <stop offset="1" stop-color="#43852C" />
+            <stop stopColor="#51A234" />
+            <stop offset="1" stopColor="#43852C" />
           </linearGradient>
           <linearGradient
             id="paint6_linear_30_5682"
@@ -659,7 +659,7 @@ function LoginCharacter() {
             gradientUnits="userSpaceOnUse"
           >
             <stop />
-            <stop offset="1" stop-opacity="0" />
+            <stop offset="1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint7_linear_30_5682"
@@ -670,15 +670,15 @@ function LoginCharacter() {
             gradientUnits="userSpaceOnUse"
           >
             <stop />
-            <stop offset="1" stop-opacity="0" />
+            <stop offset="1" stopOpacity="0" />
           </linearGradient>
           <linearGradient id="paint8_linear_30_5682" x1="659" y1="102" x2="659" y2="517" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient id="paint9_linear_30_5682" x1="676" y1="100" x2="676" y2="517" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient
             id="paint10_linear_30_5682"
@@ -688,8 +688,8 @@ function LoginCharacter() {
             y2="536"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient
             id="paint11_linear_30_5682"
@@ -699,8 +699,8 @@ function LoginCharacter() {
             y2="328.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#51A234" />
-            <stop offset="1" stop-color="#43852C" />
+            <stop stopColor="#51A234" />
+            <stop offset="1" stopColor="#43852C" />
           </linearGradient>
           <linearGradient
             id="paint12_linear_30_5682"
@@ -710,8 +710,8 @@ function LoginCharacter() {
             y2="338.946"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <linearGradient
             id="paint13_linear_30_5682"
@@ -721,8 +721,8 @@ function LoginCharacter() {
             y2="329.935"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3E782A" />
-            <stop offset="1" stop-color="#2F5B20" />
+            <stop stopColor="#3E782A" />
+            <stop offset="1" stopColor="#2F5B20" />
           </linearGradient>
           <image
             id="image0_30_5682"
