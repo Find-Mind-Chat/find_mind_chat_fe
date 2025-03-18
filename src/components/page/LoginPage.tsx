@@ -1,8 +1,8 @@
 import { GoogleOAuthProvider, GoogleLogin, CredentialResponse } from '@react-oauth/google';
 import { useNavigate } from 'react-router-dom';
 import '../../styles/LoginPage.css';
-import MainLogo from '../../assets/main-logo.svg';
-import CharacterCactus from '../../assets/login-character.svg';
+import LoginCharacter from '../icon/LoginCharacter';
+import MainLogo from '../icon/MainLogo';
 
 const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID as string;
 
@@ -22,7 +22,7 @@ const LoginPage = () => {
       <div className="login-container">
         <div className="container-left-area">
           <div className="logo-box">
-            <img src={MainLogo} alt="main-logo" className="responsive-img" width={400} height={400} />
+            <MainLogo />
           </div>
           <div className="login-form">
             <h2 className="login-text">Log In</h2>
@@ -40,7 +40,7 @@ const LoginPage = () => {
         <div className="container-right-area">
           <div className="sky-background"></div>
           <div className="character-cactus">
-            <img src={CharacterCactus} alt="character-cactus" className="responsive-img" width={600} height={600} />
+            <LoginCharacter />
           </div>
         </div>
       </div>
