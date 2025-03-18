@@ -26,18 +26,16 @@ const LoginPage = () => {
           </div>
           <div className="login-form">
             <h2 className="login-text">Log In</h2>
-            <div className="google-login-wrapper">
-              <GoogleLogin
-                onSuccess={handleLoginSuccess}
-                onError={() => console.log('구글 로그인 에러')}
-                size="large"
-                useOneTap
-              />
-            </div>
+            <GoogleLogin
+              onSuccess={handleLoginSuccess}
+              onError={() => console.log('구글 로그인 에러')}
+              size="large"
+              useOneTap
+            />
           </div>
         </div>
 
-        <div className="container-right-area">
+        <div className="container-right-area hidden-container">
           <div className="sky-background"></div>
           <div className="character-cactus">
             <LoginCharacter />

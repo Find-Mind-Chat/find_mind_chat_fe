@@ -14,19 +14,20 @@
 }
 
 .container-left-area .logo-box {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8rem;
+  margin: auto;
+  min-width: 400px;
+  min-height: 320px;
   margin-bottom: 0rem;
+  margin-top: 10rem;
 }
 
 .container-left-area .login-form {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 70%;
-  margin: auto;
-  margin-top: 0rem;
+  justify-content: center;
+  min-width: 400px;
+  gap: 3rem;
+  margin-top: 1.5rem;
   white-space: nowrap;
 }
 
@@ -55,6 +56,16 @@
 
 .container-right-area .character-cactus {
   position: absolute;
-  bottom: 1rem;
-  left: -2rem;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-60%, 55%);
+  width: 100%;
+  min-width: 412px;
+  max-width: 778px;
+}
+
+@media (max-width: 768px) {
+  .hidden-container {
+    display: none;
+  }
 }
