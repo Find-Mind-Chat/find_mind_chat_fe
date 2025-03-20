@@ -1,0 +1,198 @@
+/** 사이드메뉴 continer **/
+.side-menu-container {
+  width: 88px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: width 0.2s ease-in-out;
+  overflow: hidden;
+}
+/* 사이드메뉴 열렸을때 container width */
+.side-menu-container.open {
+  width: 220px;
+}
+
+/* ***************************************************************** */
+/** 사이드바 열고닫는 버튼 **/
+
+/* 사이드메뉴 열고 닫는 버튼 box(div) css */
+.side-menu-container .open-button-box {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+/* 사이드박스가 열렸을때 -  버튼 box(div) flex css */
+.side-menu-container.open .open-button-box {
+  justify-content: flex-end;
+  padding-right: 1rem;
+  margin-bottom: 0px;
+}
+/* 사이드박스가 열렸을때 - 버튼 css */
+.side-menu-container.open .open-button-box .open-button {
+  transform: rotate(0deg);
+}
+/* 사이드박스가 닫혔을때 - 버튼 css */
+.side-menu-container .open-button-box .open-button {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(180deg);
+}
+
+/* ***************************************************************** */
+/** 홈로고 및 메인로고 **/
+/* 사이드바가 닫혔을떄 - logo-box css */
+.side-menu-container .logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #615ef0;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+/* 사이드바가 열렸을때 - logo-box css */
+.side-menu-container.open .logo-box {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ***************************************************************** */
+/** 메뉴박스 **/
+
+/* 사이드바가 닫혔을때 - menu-box css */
+.side-menu-container .menu-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* 사이드바가 닫혔을때 - text 안보이게 css */
+.side-menu-container .menu-box .menu-link .menu-text {
+  display: none;
+}
+/* 사이드바가 열렸을때 - text 보이게 하는 css */
+.side-menu-container.open .menu-box .menu-link .menu-text {
+  display: block;
+  white-space: nowrap;
+}
+
+/* 사이드바가 열렸을때 - menu-link안에 text 링크속성 제거 및 flex css */
+.side-menu-container.open .menu-box .menu-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+  padding-left: 1rem;
+}
+.side-menu-container.open .menu-box .menu-link:hover {
+  background-color: #e5e5e5;
+}
+.side-menu-container.open .menu-box .menu-link:hover .menu-button {
+  background-color: #e5e5e5;
+}
+
+/* 사이드바가 닫혔을때 - menu-button css */
+.side-menu-container .menu-box .menu-link .menu-button {
+  background-color: white;
+  width: 100%;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.side-menu-container .menu-box .menu-link .menu-button:hover {
+  background-color: #e5e5e5;
+}
+
+/* 사이드바가 열렸을때 - menu-button css */
+.side-menu-container.open .menu-box .menu-link .menu-button {
+  width: auto;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+/* 사이드바가 열렸을때 - 메뉴텍스트 css */
+.side-menu-container.open .menu-box .menu-link .menu-text {
+  width: 100%;
+  text-align: center;
+}
+
+/* ***************************************************************** */
+/** 로그아웃 **/
+
+/* 사이드바가 닫혔을때 - logout-box css */
+.side-menu-container .logout-box {
+  width: 100%;
+  margin-top: auto;
+  transition: background-color 0.2s ease-in-out;
+}
+/* 사이드바가 열렸을때 - logout-button hover css */
+.side-menu-container.open .logout-box:hover {
+  background-color: #e5e5e5;
+}
+.side-menu-container.open .logout-box:hover .logout-button {
+  background-color: #e5e5e5;
+}
+
+/* 사이드바가 닫혔을때 - logout-button css */
+.side-menu-container .logout-box .logout-button {
+  background-color: white;
+  width: 100%;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
+/* 사이드바가 닫혔을때 - logout-button hover css */
+.side-menu-container .logout-box .logout-button:hover {
+  background-color: #e5e5e5;
+}
+/* 사이드바가 닫혔을때 - logout-text css */
+.side-menu-container .logout-box .logout-text {
+  display: none;
+}
+
+/* 사이드바가 열렸을때 - logout-box css */
+.side-menu-container.open .logout-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+}
+/* 사이드바가 열렸을때 - logout-button css */
+.side-menu-container.open .logout-box .logout-button {
+  width: auto;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
+/* 사이드바가 열렸을때 - logout-text css */
+.side-menu-container.open .logout-box .logout-text {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+}
