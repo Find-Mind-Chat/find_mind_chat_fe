@@ -18,12 +18,10 @@ const FavoriteFriendList = () => {
   return (
     <div className="favorite-friend-container">
       <HeaderText title="친구" />
-
       <div className="favorite-text-count-wrapper">
         <p className="favorite-text">즐겨찾기</p>
         <p className="favorite-count">{favoriteFriends.length}</p>
       </div>
-
       <FriendListUnit friendList={favoriteFriends} />
     </div>
   );

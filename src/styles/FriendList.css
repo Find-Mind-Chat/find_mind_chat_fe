@@ -1,4 +1,92 @@
 .friend-list-container {
   display: flex;
   height: 100vh;
+  width: 100%;
+}
+
+/* ***************************************************************** */
+/* header css */
+.friend-list-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 24px;
+  width: 100%;
+  height: 88px;
+  box-shadow: 0 1px 0 0 #edf2f7;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.add-friend-button {
+  border: none;
+  outline: none;
+  background-color: #615ef0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.notification {
+  cursor: pointer;
+}
+/* ***************************************************************** */
+/* 검색창 css */
+.search-bar {
+  padding: 16px;
+}
+.search-input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+/* ***************************************************************** */
+/* 친구 리스트 css */
+.friend-list-body {
+  flex: 1;
+  overflow-y: auto;
+  height: 100%;
+  padding-bottom: 16px;
+}
+
+.friend-list-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.friend-list-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.friend-list-body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.friend-list-body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
