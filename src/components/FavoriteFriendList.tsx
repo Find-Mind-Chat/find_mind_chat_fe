@@ -1,4 +1,5 @@
 import FriendListUnit from './FriendListUnit';
+import HeaderText from './HeaderText';
 
 const FavoriteFriendList = () => {
   const favoriteFriends = [
@@ -16,9 +17,7 @@ const FavoriteFriendList = () => {
 
   return (
     <div className="favorite-friend-container">
-      <div className="header">
-        <p className="title">친구</p>
-      </div>
+      <HeaderText title="친구" />
 
       <div className="favorite-text-count-wrapper">
         <p className="favorite-text">즐겨찾기</p>
