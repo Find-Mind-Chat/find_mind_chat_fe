@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import '../styles/SideMenu.css';
+import { Link, useLocation } from 'react-router-dom';
 import MainLogo from './icon/MainLogo';
 import HomeLogo from './icon/HomeLogo';
 import DoubleArrowIcon from './icon/DoubleArrowIcon';
-import { Link, useLocation } from 'react-router-dom';
 import HumanIcon from './icon/HumanIcon';
 import MessageIcon from './icon/MessageIcon';
 import LogoutIcon from './icon/LogoutIcon';
@@ -50,6 +49,7 @@ const SideMenu = () => {
       </div>
 
       {/* 로그아웃 */}
+      {/* todo:로그아웃 클릭시 login 페이지로 추방 및 accesstoken삭제 */}
       <div className="logout-box">
         <button className="logout-button">
           <LogoutIcon />

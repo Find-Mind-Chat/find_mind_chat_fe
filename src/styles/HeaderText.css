@@ -1,0 +1,15 @@
+/* 헤더 text */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  width: 100%;
+  height: 88px;
+  box-shadow: 0 1px 0 0 #edf2f7;
+  box-sizing: border-box;
+}
+
+.header .title {
+  font-size: 20px;
+  font-weight: 600;
+}

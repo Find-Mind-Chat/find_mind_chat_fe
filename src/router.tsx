@@ -1,13 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import App from './App';
 import LoginPage from './components/page/LoginPage';
-import FreindList from './components/page/FreindList';
+import FriendList from './components/page/FriendList';
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<FreindList />} />
+        <Route path="/" element={<FriendList />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
