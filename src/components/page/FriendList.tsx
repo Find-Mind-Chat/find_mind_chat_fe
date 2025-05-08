@@ -2,10 +2,11 @@ import { useState } from 'react';
 import SideMenu from '../SideMenu';
 import FavoriteFriendList from '../FavoriteFriendList';
 import FriendListUnit from '../FriendListUnit';
+import NotificationIcon from '../icon/NotificationIcon';
 import '../../styles/FriendList.css';
 import '../../styles/SideMenu.css';
 import '../../styles/FavoriteFriendList.css';
-import NotificationIcon from '../icon/NotificationIcon';
+import XIcon from '../icon/XIcon';
 
 const FriendsList = [
   {
@@ -72,10 +73,12 @@ const FriendsList = [
 
 const FriendList = () => {
   const [searchKeyword, setSearchKeyword] = useState('');
+  const [clickAddFriend, setClickAddFindFriend] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchKeyword(e.target.value);
   };
+  // 친구리스트 필터
   const filteredFriends = FriendsList.filter((friend) => {
     return friend.friendName.includes(searchKeyword);
   });
@@ -89,26 +92,63 @@ const FriendList = () => {
         <div className="header">
           <div className="text-button-wrapper">
             <p className="title">친구</p>
-            <button className="add-friend-button">친구 추가하기</button>
+            <button
+              className="add-friend-button"
+              onClick={() => {
+                setClickAddFindFriend(!clickAddFriend);
+              }}
+            >
+              친구 추가하기
+            </button>
           </div>
           <div className="notification">
             <NotificationIcon />
           </div>
         </div>
 
-        <div className="search-bar">
-          <input
-            type="text"
-            className="search-input"
-            placeholder="친구 검색"
-            onChange={handleChange}
-            value={searchKeyword}
-          ></input>
-        </div>
-        {/* 친구 리스트 */}
-        <div className="friend-list-body">
-          <FriendListUnit friendList={filteredFriends} />
-        </div>
+        {!clickAddFriend ? (
+          <>
+            <div className="search-bar">
+              <input
+                type="text"
+                className="search-input"
+                placeholder="친구 검색"
+                onChange={handleChange}
+                value={searchKeyword}
+              ></input>
+            </div>
+            {/* 친구추가하기 */}
+            <div className="friend-list-body">
+              <FriendListUnit friendList={filteredFriends} />
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="friend-add-container">
+              <div
+                className="close-icon"
+                onClick={() => {
+                  setClickAddFindFriend(!clickAddFriend);
+                }}
+              >
+                <XIcon />
+              </div>
+
+              <p className="friend-add-title">친구추가하기</p>
+              <span className="friend-add-sub">상대방에 Email을 사용해서 친구를 추가할 수 있어요.</span>
+              <div className="search-bar-wrapper">
+                <input
+                  type="text"
+                  className="search-input"
+                  placeholder="친구 검색"
+                  onChange={handleChange}
+                  value={searchKeyword}
+                ></input>
+                <button className="submit-add-friend">친구요청보내기</button>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
