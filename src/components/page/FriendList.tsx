@@ -74,6 +74,9 @@ const FriendsList = [
 const FriendList = () => {
   const [searchKeyword, setSearchKeyword] = useState('');
   const [clickAddFriend, setClickAddFindFriend] = useState(false);
+  // TODO:
+  // 1. 즐겨찾기 친구 리스트 백엔드에서 받아서 주기
+  // 2. 친구리스트 백엔드에서 받아서 넘겨주기
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchKeyword(e.target.value);
@@ -96,6 +99,7 @@ const FriendList = () => {
               className="add-friend-button"
               onClick={() => {
                 setClickAddFindFriend(!clickAddFriend);
+                setSearchKeyword('');
               }}
             >
               친구 추가하기
@@ -108,6 +112,7 @@ const FriendList = () => {
 
         {!clickAddFriend ? (
           <>
+            {/* 친구리스트 컴포넌트 */}
             <div className="search-bar">
               <input
                 type="text"
@@ -117,18 +122,19 @@ const FriendList = () => {
                 value={searchKeyword}
               ></input>
             </div>
-            {/* 친구추가하기 */}
             <div className="friend-list-body">
               <FriendListUnit friendList={filteredFriends} />
             </div>
           </>
         ) : (
           <>
+            {/* 친구 추가 컴포넌트 */}
             <div className="friend-add-container">
               <div
                 className="close-icon"
                 onClick={() => {
                   setClickAddFindFriend(!clickAddFriend);
+                  setSearchKeyword('');
                 }}
               >
                 <XIcon />

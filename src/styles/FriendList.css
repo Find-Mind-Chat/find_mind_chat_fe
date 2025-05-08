@@ -106,10 +106,12 @@
 .friend-add-title {
   font-size: 24px;
   font-weight: 600;
+  padding-left: 4px;
   margin-bottom: 12px;
 }
 
 .friend-add-sub {
+  padding-left: 4px;
   color: #616161;
 }
 
@@ -117,7 +119,7 @@
   display: flex;
   gap: 1rem;
   padding: 4px;
-  margin-top: 12px;
+  margin-top: 24px;
   background-color: #f3f3f3;
   border-radius: 8px;
   padding-left: 12px;
